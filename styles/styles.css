@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  /* border: 1px solid red; */
+  border: 1px solid red;
 }
 
 .skills {
@@ -116,12 +116,14 @@
   max-width: 1004px;
   min-height: 349px;
   margin: 0 auto;
+  padding: 50px auto;
+  text-align: justify;
 }
 
-.skills-icons h4 {
+.using h4 {
   max-width: 261px;
   min-height: 74px;
-  font-family: "Montserrat";
+  font-family: "Montserrat", sans-serif;
   font-size: 30px;
   font-weight: 700;
   line-height: 36.57px;
@@ -129,15 +131,30 @@
   text-align: center;
   color: #000000;
   padding: 16px 0;
+  padding-left: 50px;
 }
 
-.skills-icons img {
+.using p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 29.26px;
+  letter-spacing: 0.1354em;
+  text-align: center;
+}
+#html {
+  max-width: 84.21px;
+  min-height: 100px;
+}
+
+.skills-icons {
   max-width: 100px;
   max-height: 100px;
   margin: 0 auto;
 }
 .item {
   display: inline-block;
+  margin: 10px 50px;
 }
 
 .separator {
@@ -158,4 +175,9 @@
   text-align: center;
   padding: 33px 0;
   margin-bottom: 96px;
+}
+
+.using img {
+  max-width: 200px;
+  min-height: 100px;
 }
